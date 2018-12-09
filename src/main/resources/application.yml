@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    username: username
+    url: jdbc:mysql://mysqldbinstances.cnub7mz2gcsn.us-east-2.rds.amazonaws.com:3306/springbootcompleteprojectdb
+    password: password
