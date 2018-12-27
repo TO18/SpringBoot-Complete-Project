@@ -1,13 +1,15 @@
 package com.ofurum.SpringbootCompleteProjectModel;
 
-import javax.validation.constraints.NotNull;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 
-public class GetUserRequestModel {
+public class PostUsersRequest {
     @NotNull
     private String email;
     @NotEmpty
     private String firstName;
+    @NotBlank
     private String lastName;
     private String password;
 
@@ -42,4 +44,5 @@ public class GetUserRequestModel {
     public void setPassword(String password) {
         this.password = password;
     }
+
 }
